@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    background: #2f2f2f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col1,
+.col2 {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.money_value {
+    color: #fff;
+    font-size: 40px;
+}
+#rub {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+#start {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    background-color: red;
+    color: #fff;
+}
